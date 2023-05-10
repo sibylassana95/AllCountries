@@ -1,0 +1,11 @@
+asgiref==3.6.0
+beautifulsoup4==4.12.2
+certifi==2023.5.7
+charset-normalizer==3.1.0
+Django==4.2.1
+idna==3.4
+python-dotenv==1.0.0
+requests==2.30.0
+soupsieve==2.4.1
+sqlparse==0.4.4
+urllib3==2.0.2
