@@ -1,5 +1,5 @@
 # ALL Countries
-### Liste des pays avec leurs drapeaux, codes, indicatifs téléphoniques et capital
+### Liste des pays avec leurs drapeaux, codes,capital, indicatifs téléphoniques,population,superficie,langues,continents et googleMaps
 
 ## data
 
