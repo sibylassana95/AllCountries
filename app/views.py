@@ -1,11 +1,15 @@
 from django.shortcuts import render
 import requests
+from django.core.cache import cache
 
 
 def get_data():
     url = 'https://raw.githubusercontent.com/sibylassana95/AllCountries/main/countries.json'
-    response = requests.get(url)
-    data = response.json()
+    data = cache.get(url)
+    if not data:
+        response = requests.get(url)
+        data = response.json()
+        cache.set(url, data)
     return data
 
 

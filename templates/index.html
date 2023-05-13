@@ -18,7 +18,9 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 py-8">
   {% for pay in pays %}
   <div>
+    <a href="{{ pay.googleMaps }}" target="_blank">
     <img src="{{ pay.flag }}" alt="Drapeau de {{ pay.name }}" class="w-full mb-4"style="width:80%; height:150px;">
+  </a>
     <h1 class="text-2xl text-white font-bold">{{ pay.name }}</h1>
     <ul class="list-disc list-inside mt-4">
       <li class="text-white"><strong>Code:</strong> <span style="margin-left: 10px">{{ pay.code }}</span></li>
