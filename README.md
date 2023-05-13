@@ -37,6 +37,10 @@
 ##  exemple avec le demo django 
 
 ![CAPTURE](capture.png)
+## Utulisation des dialcodes pour les numeros
+Consulter le code source pour l'utulisation
+### vue
+![CAPTURE](contact.png)
 
 ## Installation
 
