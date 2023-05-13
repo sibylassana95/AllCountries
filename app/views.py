@@ -1,8 +1,7 @@
 from django.shortcuts import render
 import requests
 from django.core.cache import cache
-from django.views.generic import TemplateView
-
+from .forms import UserProfileForm
 def get_data():
     url = 'https://raw.githubusercontent.com/sibylassana95/AllCountries/main/countries.json'
     data = cache.get(url)
@@ -21,10 +20,8 @@ def index(request):
     context = {'pays': pays, 'query': query}
     return render(request, 'index.html', context)
 
-from django.shortcuts import render
-from .forms import UserProfileForm
 
-from django.views.generic import TemplateView
+
 
 def contact(request):
     form = UserProfileForm()
