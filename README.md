@@ -11,7 +11,7 @@
         "code": "SN",
         "capital": "Dakar",
         "dial_code": "+221",
-        "population": 16743930,
+        "population": 18032473,
         "superficie": 196722.0,
         "independent": true,
         "languages": "French",
